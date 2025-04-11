@@ -1,0 +1,16 @@
+[2;2~[2;2~[2;2~[2;2~# Flutter related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+[2;2~android/.gradle/
+android/local.properties
+.idea/
+.vscode/
+*.iml
+*.log
+*.tmp
+*.lock
