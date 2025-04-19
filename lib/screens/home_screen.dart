@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'package:flutter/material.dart';
 import 'daily_report_screen.dart';
 import 'work_permit_screen.dart';
@@ -73,3 +74,32 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
+=======
+
+import 'package:flutter/material.dart';
+
+class HomeScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: Text('홈')),
+      body: ListView(
+        children: [
+          ListTile(
+            title: Text('작업일보'),
+            onTap: () => Navigator.pushNamed(context, '/dailyReport'),
+          ),
+          ListTile(
+            title: Text('작업허가서'),
+            onTap: () => Navigator.pushNamed(context, '/permit'),
+          ),
+          ListTile(
+            title: Text('설정'),
+            onTap: () => Navigator.pushNamed(context, '/settings'),
+          ),
+        ],
+      ),
+    );
+  }
+}
+>>>>>>> 992a1d246555bfc6fe6e6246615674437e67901a
