@@ -1,0 +1,30 @@
+name: safety_manager_app
+description: A safety management app for construction sites.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  excel: ^4.0.6
+  path_provider: ^2.1.2
+  csv: ^5.1.1                       # ✅ CSV 변환용
+  permission_handler: ^11.3.0      # ✅ 저장 권한 요청용
+
+  # ✅ Firebase 연동을 위한 패키지 추가
+  firebase_core: ^2.24.2
+  firebase_database: 10.5.7
+  cloud_firestore: ^4.15.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "853332714317",
+    "firebase_url": "https://safety-manager-b52dd-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "safety-manager-b52dd",
+    "storage_bucket": "safety-manager-b52dd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853332714317:android:519fb27398f4be3c1b8d04",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsijGn3WNARcOyh4GFi45nOLOx1eWaJlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853332714317:android:9355c737aff77f0f1b8d04",
+        "android_client_info": {
+          "package_name": "com.example.safety_manager_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsijGn3WNARcOyh4GFi45nOLOx1eWaJlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853332714317:android:42ce532db44a93581b8d04",
+        "android_client_info": {
+          "package_name": "com.example.safety_mvp_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsijGn3WNARcOyh4GFi45nOLOx1eWaJlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
