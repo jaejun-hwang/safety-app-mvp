@@ -11,20 +11,28 @@ dependencies:
     sdk: flutter
   sqflite: ^2.3.0
   path: ^1.9.0
-  excel: ^4.0.6
   path_provider: ^2.1.2
-  csv: ^5.1.1                       # ✅ CSV 변환용
-  permission_handler: ^11.3.0      # ✅ 저장 권한 요청용
+  csv: ^5.1.1
+  permission_handler: ^11.3.0
 
-  # ✅ Firebase 연동을 위한 패키지 추가
+  # ✅ Firebase 연동을 위한 패키지
   firebase_core: ^2.24.2
   firebase_database: 10.5.7
   cloud_firestore: ^4.15.6
+  excel: ^4.0.6
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: ^0.13.1  # ✅ 런처 아이콘 생성용 dev 패키지 추가
 
 flutter:
   uses-material-design: true
 
+  assets:
+    - assets/images/               # ✅ 앱에서 사용할 이미지 경로
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"  # ✅ 아이콘으로 쓸 PNG 이미지 경로

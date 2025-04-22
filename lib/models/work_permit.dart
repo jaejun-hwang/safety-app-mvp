@@ -21,6 +21,7 @@ class WorkPermit {
     required this.notes,
   });
 
+  /// ✅ SQLite 저장용 (int로 변환됨)
   Map<String, dynamic> toMap() {
     return {
       'id': id,
@@ -46,6 +47,36 @@ class WorkPermit {
       workerCount: map['workerCount'],
       safetyChecked: map['safetyChecked'] == 1,
       notes: map['notes'],
+    );
+  }
+
+  /// ✅ Firebase Firestore 저장용 (bool은 그대로 true/false)
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'constructionName': constructionName,
+      'location': location,
+      'content': content,
+      'date': date,
+      'supervisor': supervisor,
+      'workerCount': workerCount,
+      'safetyChecked': safetyChecked,
+      'notes': notes,
+    };
+  }
+
+  /// ✅ Firebase에서 읽어올 때 사용
+  factory WorkPermit.fromJson(Map<String, dynamic> json) {
+    return WorkPermit(
+      id: json['id'],
+      constructionName: json['constructionName'],
+      location: json['location'],
+      content: json['content'],
+      date: json['date'],
+      supervisor: json['supervisor'],
+      workerCount: json['workerCount'],
+      safetyChecked: json['safetyChecked'] ?? false,
+      notes: json['notes'] ?? '',
     );
   }
 }

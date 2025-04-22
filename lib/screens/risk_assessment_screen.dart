@@ -2,6 +2,8 @@
 import 'package:flutter/material.dart';
 
 class RiskAssessmentScreen extends StatelessWidget {
+  const RiskAssessmentScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

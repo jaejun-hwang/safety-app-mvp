@@ -1,0 +1,2 @@
+D:/safety_mvp_app/android/app/.cxx/RelWithDebInfo/u5ou3d6v/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/safety_mvp_app/android/app/.cxx/RelWithDebInfo/u5ou3d6v/arm64-v8a/CMakeFiles/rebuild_cache.dir

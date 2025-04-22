@@ -2,6 +2,8 @@
 import 'package:flutter/material.dart';
 
 class PhotoLogScreen extends StatelessWidget {
+  const PhotoLogScreen({super.key});
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
